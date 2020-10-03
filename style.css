@@ -1,6 +1,6 @@
-
 ::after,
 ::before {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,6 @@ header {
     margin: 20px;
 }
 
-
 .logo a {
     height: 40px;
     color: #000;
@@ -44,6 +43,7 @@ header {
   height: 40px;
   color:#000;
   text-decoration: none;
+
 
 }
 
@@ -100,17 +100,24 @@ header {
     padding: 10px;
 }
 
-
-.step h3, .step p{
-  text-align: center;
- teamC-1
-.nav-center1  {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  
+.header3 h1 {
+    margin: 20px;
+    text-align: center;
 }
+
+.step h3,
+.step p {
+    text-align: center;
+}
+
+.nav-center1 {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .nav-header {
+
         max-width: 1170px;
        margin: 0 auto;
        display: flex;
@@ -118,17 +125,25 @@ header {
        justify-content: space-between;
        padding: 1rem;
    }
+
 /*
    =============== 
    Footer
    ===============
    */
 
+
+footer {
+    background-color: #b4abab;
+    color: #FFF;
+}
+
    footer{
      background-color: #b4abab;
      color: #FFF;
    }
  main
+
 
 
 @media screen and (min-width: 800px) {
@@ -181,6 +196,3 @@ header {
     margin-right: 20px;
   }
 }
- 
-   
-
