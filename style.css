@@ -26,7 +26,7 @@ Navbar
 ===============
 */
 nav {
-  background:#FFF;
+  background:rgb(175, 170, 170);
   width: 100%;
   margin: 20px;
 }
@@ -49,14 +49,14 @@ nav {
   color: hsl(205, 33%, 93%);;
   padding-left: 1.5rem;
 }
-button{
+.log-button{
     background-color: blue;
     width: 80px;
     height: 40px;
    box-shadow:  0 0 10px black;
     
 }
-button a{
+.log-button a{
     color: #FFF;
 }
 
@@ -85,6 +85,16 @@ button a{
 .step h3, .step p{
   text-align: center;
 }
+/*
+   =============== 
+   Footer
+   ===============
+   */
+   footer{
+     background-color: #b4abab;
+     color: #FFF;
+   }
+
 
 @media screen and (min-width: 800px) {
  
@@ -97,7 +107,7 @@ button a{
      .nav-center {
        max-width: 1170px;
        margin: 0 auto;
-       display: flex;
+       display: flex; 
        align-items: center;
        justify-content: space-between;
        padding: 1rem;
