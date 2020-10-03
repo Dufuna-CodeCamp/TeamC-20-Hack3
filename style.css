@@ -31,9 +31,15 @@ Navbar
 */
 
 nav {
+<<<<<<< HEAD
     background: #FFF;
     width: 100%;
     margin: 20px;
+=======
+  background:rgb(175, 170, 170);
+  width: 100%;
+  margin: 20px;
+>>>>>>> 4f08a0e0318318e2c8153109d2877ba511e72e91
 }
 
 .logo a {
@@ -58,15 +64,23 @@ nav {
     ;
     padding-left: 1.5rem;
 }
+<<<<<<< HEAD
 
 button {
+=======
+.log-button{
+>>>>>>> 4f08a0e0318318e2c8153109d2877ba511e72e91
     background-color: blue;
     width: 80px;
     height: 40px;
     box-shadow: 0 0 10px black;
 }
+<<<<<<< HEAD
 
 button a {
+=======
+.log-button a{
+>>>>>>> 4f08a0e0318318e2c8153109d2877ba511e72e91
     color: #FFF;
 }
 
@@ -104,6 +118,16 @@ button a {
 .step p {
     text-align: center;
 }
+/*
+   =============== 
+   Footer
+   ===============
+   */
+   footer{
+     background-color: #b4abab;
+     color: #FFF;
+   }
+
 
 @media screen and (min-width: 800px) {
     /*
@@ -111,6 +135,7 @@ button a {
    Navbar
    ===============
    */
+<<<<<<< HEAD
     .nav-center {
         max-width: 1170px;
         margin: 0 auto;
@@ -153,3 +178,51 @@ button a {
         margin-right: 20px;
     }
 }
+=======
+    
+     .nav-center {
+       max-width: 1170px;
+       margin: 0 auto;
+       display: flex; 
+       align-items: center;
+       justify-content: space-between;
+       padding: 1rem;
+   }
+     .nav-header {
+       padding: 0;
+   }
+     
+     .links {
+       height: auto;
+       display: flex;
+   }
+     .links a {
+       padding: 0;
+       margin: 0 0.5rem;
+   }
+     .links a:hover {
+       padding: 0;
+       background: transparent;
+   }
+   .step-apply{
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .footer{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-logo{
+    margin-right: auto;
+  }
+  .footer-contact{
+    display: flex;
+    justify-content:space-between;
+  }
+  .footer-contact a{
+    margin-right: 20px;
+  }
+}
+ 
+   
+>>>>>>> 4f08a0e0318318e2c8153109d2877ba511e72e91
