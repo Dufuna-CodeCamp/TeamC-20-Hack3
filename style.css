@@ -1,21 +1,24 @@
-
 ::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  font-family:"Roboto", sans-serif;
-  color:#000;
-  line-height: 1.5;
-  font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    line-height: 1.5;
+    font-size: 0.875rem;
 }
-ul, li {
-  list-style-type: none;
+
+ul,
+li {
+    list-style-type: none;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -24,143 +27,150 @@ a {
 Navbar
 ===============
 */
-header{
-  background:rgb(175, 170, 170);
-  width: 100%;
-  margin: 20px;
+
+header {
+    background: rgb(175, 170, 170);
+    width: 100%;
+    margin: 20px;
 }
 
-.logo  {
-  height: 40px;
-  color:#000;
-  text-decoration: none;
+.logo {
+    height: 40px;
+    color: #000;
+    text-decoration: none;
 }
+
 .links a {
-  columns: #000000;;
-  font-size: 1rem;
-  text-transform: capitalize;
-  letter-spacing: 0.1rem;
-  display: block;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s linear;
+    columns: #000000;
+    ;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
 }
+
 .links a:hover {
-  background: hsl(240, 2%, 12%);
-  color: hsl(205, 33%, 93%);;
-  padding-left: 1.5rem;
+    background: hsl(240, 2%, 12%);
+    color: hsl(205, 33%, 93%);
+    ;
+    padding-left: 1.5rem;
 }
-.log-button{
+
+.log-button {
     background-color: blue;
     width: 80px;
     height: 40px;
-   box-shadow:  0 0 10px black;
-    
+    box-shadow: 0 0 10px black;
 }
-.log-button a{
+
+.log-button a {
     color: #FFF;
 }
 
- /*
+
+/*
    =============== 
    Section
    ===============
    */
-   .header1, .header2{
+
+.header1,
+.header2 {
     margin: 20px;
-  }
-  .header1 p{
+}
+
+.header1 p {
     margin: 20px;
-  }
-.header2 ul{
-  list-style: decimal-leading-zero;
-  margin: 20px;
 }
-.header2 li{
-  padding: 10px;
+
+.header2 ul {
+    list-style: decimal-leading-zero;
+    margin: 20px;
 }
-.header3 h1{
-  margin: 20px;
-  text-align: center;
+
+.header2 li {
+    padding: 10px;
 }
-.step h3, .step p{
-  text-align: center;
- teamC-1
-.nav-center1  {
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  
+
+.header3 h1 {
+    margin: 20px;
+    text-align: center;
 }
+
+.step h3,
+.step p {
+    text-align: center;
+}
+
+.nav-center1 {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .nav-header {
-        max-width: 1170px;
-       margin: 0 auto;
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       padding: 1rem;
-   }
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
 
 /*
    =============== 
    Footer
    ===============
    */
-   footer{
-     background-color: #b4abab;
-     color: #FFF;
-   }
- main
+
+footer {
+    background-color: #b4abab;
+    color: #FFF;
+}
 
 @media screen and (min-width: 800px) {
- 
-    /*
-   =============== 
-   Navbar
-   ===============
-   */
-    
-     #nav-center1 {
-       max-width: 1170px;
-       margin: 0 auto;
-       display: flex; 
-       align-items: center;
-       justify-content: space-between;
-       padding: 1rem;
-   }
-     .nav-header {
-       padding: 0;
-   }
-     
-     .links {
-       height: auto;
-       display: flex;
-   }
-     .links a {
-       padding: 0;
-       margin: 0 0.5rem;
-   }
-     .links a:hover {
-       padding: 0;
-       background: transparent;
-   }
-   .step-apply{
-    display:flex;
-    justify-content: space-evenly;
-  }
-  .footer{
-    display: flex;
-    justify-content: flex-start;
-  }
-  .footer-logo{
-    margin-right: auto;
-  }
-  .footer-contact{
-    display: flex;
-    justify-content:space-between;
-  }
-  .footer-contact a{
-    margin-right: 20px;
-  }
+    av-center1 {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-header {
+        padding: 0;
+    }
+    .links {
+        height: auto;
+        display: flex;
+    }
+    .links a {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+    .links a:hover {
+        padding: 0;
+        background: transparent;
+    }
+    .step-apply {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer-logo {
+        margin-right: auto;
+    }
+    .footer-contact {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-contact a {
+        margin-right: 20px;
+    }
 }
- 
-   
