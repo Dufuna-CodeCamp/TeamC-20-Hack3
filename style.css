@@ -1,5 +1,6 @@
 ::after,
- ::before {
+::before {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,10 +35,16 @@ header {
     margin: 20px;
 }
 
-.logo {
+.logo a {
     height: 40px;
     color: #000;
-    text-decoration: none;
+
+.logo  {
+  height: 40px;
+  color:#000;
+  text-decoration: none;
+
+
 }
 
 .links a {
@@ -54,7 +61,6 @@ header {
 .links a:hover {
     background: hsl(240, 2%, 12%);
     color: hsl(205, 33%, 93%);
-    ;
     padding-left: 1.5rem;
 }
 
@@ -111,14 +117,14 @@ header {
 }
 
 .nav-header {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-}
 
+        max-width: 1170px;
+       margin: 0 auto;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 1rem;
+   }
 
 /*
    =============== 
@@ -126,51 +132,67 @@ header {
    ===============
    */
 
+
 footer {
     background-color: #b4abab;
     color: #FFF;
 }
 
+   footer{
+     background-color: #b4abab;
+     color: #FFF;
+   }
+ main
+
+
+
 @media screen and (min-width: 800px) {
-    av-center1 {
-        max-width: 1170px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-    }
-    .nav-header {
-        padding: 0;
-    }
-    .links {
-        height: auto;
-        display: flex;
-    }
-    .links a {
-        padding: 0;
-        margin: 0 0.5rem;
-    }
-    .links a:hover {
-        padding: 0;
-        background: transparent;
-    }
-    .step-apply {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .footer {
-        display: flex;
-        justify-content: flex-start;
-    }
-    .footer-logo {
-        margin-right: auto;
-    }
-    .footer-contact {
-        display: flex;
-        justify-content: space-between;
-    }
-    .footer-contact a {
-        margin-right: 20px;
-    }
+    /*
+   =============== 
+   Navbar
+   ===============
+   */
+    
+     #nav-center1 {
+       max-width: 1170px;
+       margin: 0 auto;
+       display: flex; 
+       align-items: center;
+       justify-content: space-between;
+       padding: 1rem;
+   }
+     .nav-header {
+       padding: 0;
+   }
+     
+     .links {
+       height: auto;
+       display: flex;
+   }
+     .links a {
+       padding: 0;
+       margin: 0 0.5rem;
+   }
+     .links a:hover {
+       padding: 0;
+       background: transparent;
+   }
+   .step-apply{
+    display:flex;
+    justify-content: space-evenly;
+  }
+  .footer{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-logo{
+    margin-right: auto;
+  }
+  .footer-contact{
+    display: flex;
+    justify-content:space-between;
+  }
+  .footer-contact a{
+    margin-right: 20px;
+  }
 }
